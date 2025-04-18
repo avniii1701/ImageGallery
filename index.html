@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avni's Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="bg-primary text-white text-center py-4">
+    <h1 class="fw-bold">IMAGE GALLERY</h1>
+  </header>
+
+  <div class="main-wrapper">
+    <div class="text-center">
+      <div class="btn-group mb-4 flex-wrap">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ronaldo">Cristiano Ronaldo</button>
+        <button class="filter-btn" data-filter="harry">Harry Potter</button>
+        <button class="filter-btn" data-filter="alice">Alice in Borderland</button>
+        <button class="filter-btn" data-filter="stranger">Stranger Things</button>
+        <button class="filter-btn" data-filter="wednesday">Wednesday</button>
+        <button class="filter-btn" data-filter="spiderman">The Amazing Spider-Man</button>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="filter ronaldo small">
+        <img src="https://wallpapers.com/images/featured/cristiano-ronaldo-pictures-bc9xghd8s9yni3r6.jpg" alt="Cristiano Ronaldo">
+      </div>
+      <div class="filter ronaldo large">
+        <img src="https://www.si.com/.image/t_share/MTk3NjYyNzExMDkyMzU2OTE0/imago0032525155h.jpg" alt="Cristiano Ronaldo">
+      </div>
+
+      <div class="filter harry small">
+        <img src="https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Harry Potter">
+      </div>
+      <div class="filter harry large">
+        <img src="https://hips.hearstapps.com/vidthumb/images/hary-potter-prisionero-de-azkaban-ron-hermione-64257942ce019.jpg?crop=1xw:1xh;center,top&resize=1200:*" alt="Harry Potter">
+      </div>
+
+      <div class="filter alice small">
+        <img src="https://resizing.flixster.com/zJAq0u6zmOEc0jHUp_it09r2VW4=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18829068_b_h10_aa.jpg" alt="Alice in Borderland">
+      </div>
+      <div class="filter alice large">
+        <img src="https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABX1PQkjpZ4yf25aNs9FA1Wc6Bwww1sJ9ZqOrvN4G4e8el-YPaySE13U06TVO_bavBD2HVlvZbu17TKoDf6jEfPfnDEjtKIwNcu8yizveBINpWRDMfdIizOukYQ.jpg?r=d1f" alt="Alice in Borderland">
+      </div>
+
+      <div class="filter stranger small">
+        <img src="https://m.media-amazon.com/images/M/MV5BOWU2NjY5NWQtMjdkZi00ODJlLThkZTAtMzFlYmJmMGE2NjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Stranger Things">
+      </div>
+      <div class="filter stranger large">
+        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/stranger-things-cartoon.jpg" alt="Stranger Things">
+      </div>
+
+      <div class="filter wednesday small">
+        <img src="https://m.media-amazon.com/images/M/MV5BY2E1NDI5OWEtODJmYi00Nzg2LWI4MjUtODFiMTU2YWViOTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Wednesday">
+      </div>
+      <div class="filter wednesday large">
+        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/12/xavier-thorpe-and-wednesday-in-netflix-wednesday.jpg" alt="Wednesday">
+      </div>
+
+      <div class="filter spiderman small">
+        <img src="https://m.media-amazon.com/images/I/512akRSFzCL._UF1000,1000_QL80_.jpg" alt="The Amazing Spider-Man">
+      </div>
+      <div class="filter spiderman large">
+        <img src="https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABdZfKy1Ahv92atDMHyHBItwIkFKCo2fT7kTF-aK60keXqTCqUQjZRpIJp_aFDlRq_nzMlygQU9XXsCIGi767Nihk6IOpsPo6sR9G.jpg?r=62a" alt="The Amazing Spider-Man">
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <p class="fw-bold mb-0">© 2025 Avni Nivas Patil | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
